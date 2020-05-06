@@ -1,12 +1,8 @@
 #include "version.h"
 #include "stdio.h"
 
-int version(){
-    return VERSION;
-}
-
 
 int main(){
-    fprintf(stdout, "Hello Git! Version %d\n", version());
+    fprintf(stdout, "Hello Git! Version %d.%d\n", VERSION_MAJOR, VERSION_MINOR);
     return 0;
 }

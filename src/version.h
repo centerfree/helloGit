@@ -1,5 +1,5 @@
 #ifndef VERSION
-#define VERSION 1
+#define VERSION
+#define VERSION_MAJOR 1
+#define VERSION_MINOR 2
 #endif
-
-int version();
